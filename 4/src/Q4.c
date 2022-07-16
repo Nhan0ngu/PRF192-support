@@ -23,7 +23,12 @@ int countLetters(char* s) {
 	//Begin your codes here=====================
 	
 	
-	
+		int word = 0;
+    for (int i = 0; i <= strlen(s); i++)
+    {
+        if(s[i] >= 'a' && s[i] <= 'z' || s[i] >= 'A' && s[i] <= 'Z') word++;
+    }
+    return word;
 	
 	
 	//End your codes============================

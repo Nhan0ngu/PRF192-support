@@ -52,11 +52,7 @@ int isPrime(int n) {
 int findBiggestPrimeNumber(int a[], int n) {
 	
 	//Begin your codes here=====================
-	n = a[0];
-	for ( int i = 1; i < 5; i++) 
-		if (a[i] > isPrime( n))
-			n = a[i];
-	return n;
+	
 	//TIM SO NGUYEN TO LON NHAT TRONG MANG 
 	
 	

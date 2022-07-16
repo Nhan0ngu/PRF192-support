@@ -1,28 +1,31 @@
 #include <stdio.h>
 #include <stdlib.h>
-double average(int a, int b, int c){
-	double r;
-	r=(a+b+c)/3.;
-	//Write your statements here
 
-	//End your statements 
-	return r ;
+void swap(int* a, int* b);
+int main(int argc, char *argv[]) {
+	//=== Do not add new or change statements in the main function.===
+	system("cls");
+	printf("\nTEST Q1 (2 marks):\n");
+	int n, m;
+	printf("Please enter two positive integer n and m: ");
+	scanf("%d%d", &n,&m);
+
+	//=== The output will be used to mark your program.===============
+	printf("\nOUTPUT:\n");
+	swap(&n,&m);
+	printf("%-5d%-5d", n,m);
+	printf("\n");
+	system ("pause");
+	return 0;
 }
-int main()
-{
-  //=============DO NOT ADD NEW OR CHANGE THIS STATEMENTS========
-  system("cls");
-  printf("\nTEST Q1 (2 marks):\n");
-  int a, b, c;
-  double r;
-  printf("Enter a = "); scanf("%d",&a);
-  printf("Enter b = "); scanf("%d",&b);
-  printf("Enter c = "); scanf("%d",&c);   
-  r = average(a,b,c); 
-  printf("\nOUTPUT:\n");
-  printf("%.2lf",r); 
-  printf("\n");
-  system ("pause");
-  return(0);
-  //============================================================ 
+//-----------------------------------------------
+void swap(int* a, int* b){
+	//Begin your codes here=====================
+	// INPUT 2 POSSITIVE INTEGER N AND M . SWAP
+	
+	
+	
+	
+	
+	//End your codes============================
 }
